@@ -19,8 +19,19 @@ class Mobil {
     }
 }
 
+// Cara Export Satu
 // module.exports = mtkDasar;
-module.exports.mtkDasar = mtkDasar;
-module.exports.PI = PI;
-module.exports.mahasiswa = mahasiswa;
-module.exports.Mobil = Mobil;
+
+// Cara Export Dua
+// module.exports.mtkDasar = mtkDasar;
+// module.exports.PI = PI;
+// module.exports.mahasiswa = mahasiswa;
+// module.exports.Mobil = Mobil;
+
+// Cara Export Ketiga
+module.exports = {
+    mtkDasar,
+    PI:PI,
+    mahasiswa:mahasiswa,
+    Mobil:Mobil
+};
